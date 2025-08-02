@@ -1,0 +1,24 @@
+# Ignore the target directory (build output)
+target/
+
+# Ignore Cargo's package-specific files
+**/*.rs.bk
+**/*.rs~
+
+# Ignore backup files (common from editors)
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore macOS system files (optional)
+.DS_Store
+
+# Ignore node_modules if using WASM with npm
+node_modules/
