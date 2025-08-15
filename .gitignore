@@ -1,0 +1,29 @@
+# Compiled output
+*/target/
+
+# Cargo package files
+*/Cargo.lock
+**/*.rs.bk
+
+# Debugging / profiling files
+*.pdb
+*.dSYM
+*.profraw
+
+# By default Cargo.lock is needed for binaries, but not for libraries
+# Uncomment if you're creating a binary project and want to track it
+# Cargo.lock
+
+# IDE / Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
